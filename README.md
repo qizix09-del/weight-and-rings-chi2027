@@ -116,7 +116,7 @@ Use the [512 × 512 application PNG](https://qizix09-del.github.io/weight-and-ri
 
 Programme data © ACM CHI 2027, licensed under CC BY-NC-SA 4.0. Historical reference data and its cached transformations retain this licence. The 2027 planner contains authored examples. [Competition data licence](https://chidigitalexperience.org/data/LICENCE)
 
-Independent student prototype inspired by Western Pennsylvania cantilevered architecture; not affiliated with any landmark or foundation.
+Weight & Rings is an independent student prototype inspired by Western Pennsylvania architecture. It has no affiliation with Fallingwater or the Western Pennsylvania Conservancy.
 
 Slow Shelf miniatures pair a paper figure with the Three Sisters suspension bridges, a workshop table with crossed steel trusses, and a poster display with a curved Phipps glasshouse roof.
 
