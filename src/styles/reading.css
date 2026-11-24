@@ -1,0 +1,80 @@
+.rings-screen .geo-mark { margin-bottom: 1px; }
+.reading-header {
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2px 10px; min-height: 38px;
+}
+.reading-back { display: inline-flex; align-items: center; gap: .32em; min-height: 38px; font-size: .97rem; color: #234e40; font-weight: 570; }
+.reading-back svg { width: .63em; height: 1em; }
+.reading-label { background: #527c5420; border-radius: 1em; padding: .35em .65em; font-size: .74rem; line-height: 1.2; color: #263b30; font-weight: 630; }
+.reading-switch { position: relative; display: inline-flex; align-items: center; gap: .35em; }
+.reading-switch select { position: absolute; inset: -8px 0; width: 100%; opacity: 0; }
+.growth-dial {
+  display: block; overflow: visible; width: min(100%,34.44dvh,298px); height: auto; margin: 0 auto;
+  touch-action: none; user-select: none; -webkit-user-select: none;
+}
+.specimen-shadow { filter: drop-shadow(0 4px 3.3px #453b2730); }
+.dial-grip,.year-label { cursor: grab; }
+.growth-dial:active .dial-grip,.growth-dial:active .year-label { cursor: grabbing; }
+.growth-dial [data-pick-year] { cursor: pointer; }
+.dial-year { cursor: pointer; color: #243b30; font-size: 1.21rem; font-weight: 550; }
+.dial-year text { fill: currentColor; }
+.dial-year[aria-pressed=true] { color: #80560d; font-weight: 730; }
+.year-label rect { x: -1.52em; y: -.88em; width: 3.04em; height: 1.76em; }
+.dial-help { color: #4b6256; text-align: center; font-size: .72rem; line-height: 1.2; margin: 2px 0 4px; }
+.ring-caption { text-align: center; margin-bottom: 6px; }
+.ring-caption h1 { font-size: clamp(1.52rem,6.9cqw,2rem); margin: 0; line-height: 1.08; text-wrap: balance; }
+.ring-caption > p { margin-top: 5px; color: #334d40; font-size: .82rem; line-height: 1.3; }
+.record-card {
+  padding: 9px 12px; border-radius: 16px; background: rgb(255 254 246 / .75); color: #26392d;
+  animation: ink-in 190ms ease-out;
+}
+@keyframes ink-in { from { opacity: .72; } }
+.record-card article + article { border-top: 1px solid #66705a38; margin-top: 8px; padding-top: 8px; }
+.record-year,.archive-type { font-size: .73rem; line-height: 1.3; color: #40594a; }
+.record-year { font-weight: 650; }
+.record-card h2 { font-size: .99rem; letter-spacing: -.015em; line-height: 1.2; margin: 3px 0; color: #162e20; overflow-wrap: anywhere; }
+.authors { font-size: .73rem; line-height: 1.3; color: #45594b; }
+.record-links { display: flex; flex-wrap: wrap; align-items: flex-start; column-gap: 12px; }
+.record-authors { max-width: 100%; font-size: .75rem; color: #45594b; }
+.record-authors summary { padding-block: 4px; min-height: 26px; font-weight: 610; }
+.record-authors p { padding-bottom: 3px; }
+.takeaway,.no-record,.session-abstract p { margin-top: 4px; font-size: .86rem; line-height: 1.35; }
+.publication-link,.empty-shelf a {
+  display: inline-flex; align-items: center; padding-block: .32em; min-height: 28px;
+  font-size: .78rem; color: #235c47; text-decoration: underline; text-underline-offset: 2px; font-weight: 620;
+}
+.room-note { color: #48584b; font-size: .66rem; font-weight: 610; letter-spacing: .04em; margin-top: 3px; }
+.rings-footer { margin-top: 8px; }
+.reading-action {
+  width: 100%; min-height: 46px; padding: .55em .8em; border-radius: 99px; color: #fff9e7;
+  font-size: 1rem; font-weight: 660; text-align: center; background: var(--dock);
+}
+.session-abstract { padding: 0 4px; margin-top: 6px; font-size: .82rem; color: #385542; }
+.session-abstract summary { padding: 6px 0; }
+.session-abstract p { margin-top: 0; }
+
+.shelf-intro h1 { margin: 5px 0 13px; }
+.archive-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+.archive-card {
+  --badge-size: clamp(60px,20cqw,84px); position: relative; display: grid;
+  grid-template-columns: var(--badge-size) minmax(0,1fr); align-content: center; grid-template-rows: auto auto;
+  column-gap: 10px; padding: 10px 12px; min-height: 109px; border-radius: 17px;
+  background: rgb(255 254 246 / .74); color: #1d2c21;
+}
+.archive-open { grid-column: 2; grid-row: 1; align-self: end; text-align: left; min-height: 42px; }
+.archive-open::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+.material-badge { width: 100%; display: block; align-self: center; grid-row: 1 / 3; grid-column: 1; filter: drop-shadow(0 2px 2px #493a2730); }
+.shelf-relief { width: min(100%,56px); height: auto; justify-self: center; }
+.archive-caption { display: grid; gap: 3px; }
+.archive-caption strong { font-size: clamp(1.03rem,4.9cqw,1.22rem); line-height: 1.12; letter-spacing: -.03em; font-weight: 680; overflow-wrap: anywhere; }
+.archive-tools { grid-column: 2; grid-row: 2; position: relative; display: flex; flex-wrap: wrap; gap: 3px; align-items: center; justify-content: space-between; }
+.archive-years { display: flex; flex-wrap: wrap; gap: 4px; color: #245b45; font-size: .77rem; font-weight: 640; }
+.archive-years button { min-height: 31px; padding: 3px .69em; border: 1px solid #627e6c42; border-radius: 99px; background: #e7eee1; }
+.shelf-actions { display: flex; margin-left: auto; gap: 2px; }
+.shelf-actions button { display: grid; place-items: center; width: 33px; height: 36px; color: #456551; border-radius: 10px; }
+.shelf-actions svg { width: 17px; height: 17px; }
+.empty-shelf { padding: 12px 0; }
+.empty-shelf p { margin-top: .5em; }
+@container (max-width: 270px) {
+  .archive-card { --badge-size: 19cqw; column-gap: 7px; padding: 8px; }
+  .growth-dial { width: min(100%,30dvh); }
+}

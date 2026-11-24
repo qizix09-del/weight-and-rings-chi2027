@@ -1,0 +1,25 @@
+:root {
+  --pine: #1B4335;
+  --muted: #4B635B;
+  --dock: #193D32;
+  --card: rgba(255, 255, 255, .72);
+  --gold: #D49B2A;
+  --terra: #C86446;
+  --studio: #F4F6F4;
+  --sandstone: #A69F91;
+  --cedar: #C79A63;
+  --cedar-ring: #8C5E30;
+  --jade: #CBE0D6;
+  --jade-ring: #2D6050;
+  --break: #FAF5E6;
+  --break-edge: #6E9487;
+  --sky-top: #D9EEE5;
+  --sky-base: #F7F4EA;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", Inter, "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: var(--pine);
+  color-scheme: light;
+}
+@property --sky-top { syntax: '<color>'; inherits: true; initial-value: #D9EEE5; }
+@property --sky-base { syntax: '<color>'; inherits: true; initial-value: #F7F4EA; }

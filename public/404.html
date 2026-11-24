@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Weight &amp; Rings</title>
+<body><p>Opening Weight &amp; Rings…</p><script>
+const parts = location.pathname.split('/').filter(Boolean);
+const pages = ['today', 'vessel', 'rings', 'pause', 'saved', 'list'];
+const i = parts.findIndex(part => pages.includes(part));
+const prefix = i >= 0 ? parts.slice(0, i) : (location.hostname.endsWith('.github.io') ? parts.slice(0, 1) : []);
+const route = i >= 0 ? parts.slice(i).join('/') : 'today';
+location.replace('/' + (prefix.length ? prefix.join('/') + '/' : '') + location.search + (location.hash || '#/' + route));
+</script></body></html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Weight &amp; Rings app icon</title>
+  <defs>
+    <linearGradient id="pine" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#285747"/>
+      <stop offset="1" stop-color="#193D32"/>
+    </linearGradient>
+    <linearGradient id="stone" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#C2B29C"/>
+      <stop offset="1" stop-color="#938571"/>
+    </linearGradient>
+    <linearGradient id="terrace" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FAECCF"/>
+      <stop offset="1" stop-color="#E3C58D"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#pine)" d="M0 0h512v512H0z"/>
+  <rect x="167" y="102" width="72" height="265" rx="19" fill="url(#stone)"/>
+  <path d="M177 126h52m-52 51h52m-52 53h52m-52 53h52m-52 50h52" fill="none" stroke="#EBDBC7" stroke-opacity=".36" stroke-width="2"/>
+  <g fill="url(#terrace)">
+    <rect x="189" y="135" width="211" height="48" rx="14"/>
+    <rect x="111" y="214" width="174" height="44" rx="13"/>
+    <rect x="186" y="291" width="202" height="48" rx="14"/>
+  </g>
+  <g fill="none" stroke="#FFF5DD" stroke-opacity=".64" stroke-linecap="round" stroke-width="3">
+    <path d="M204 141h179M126 220h144m-69 77h170"/>
+  </g>
+  <g fill="none" stroke="#ADD2C2" stroke-linecap="round">
+    <path d="M160 386c30 12 55 11 83 0 26-10 50-9 77 0 17 6 33 7 48 1" stroke-width="8"/>
+    <path d="M189 414c17 4 34 3 54-4 24-8 43-8 64 0 12 4 22 5 30 3" stroke-opacity=".55" stroke-width="5"/>
+  </g>
+</svg>

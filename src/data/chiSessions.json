@@ -1,0 +1,410 @@
+[
+  {
+    "id": "physical",
+    "title": "Physical & Tangible Visualizations",
+    "type": "paper",
+    "timeSlot": "10:00–11:15",
+    "room": "Room 04",
+    "loadWeight": 26,
+    "abstract15s": "Handle two models of the same dataset and compare what their shapes let you infer. The discussion asks when touch reveals a pattern that a chart hides.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Data Physicalization with Haptic Variables: Exploring Resistance and Friction",
+        "authors": [
+          "Sander Dullaert",
+          "Champika Ranasinghe",
+          "Auriol Degbelo",
+          "Nacir Bouali"
+        ],
+        "takeaway": "Participants read physical patterns through friction and resistance. Many preferred resistance, even when task performance was similar.",
+        "venue": "CHI Extended Abstracts",
+        "url": "https://doi.org/10.1145/3613905.3651011"
+      },
+      {
+        "year": 2026,
+        "title": "From Squishing to Meaning: Exploring Data Physicalization Through Children's Embodied Experiences",
+        "authors": [
+          "Andres A. Ramirez-Duque",
+          "Dushani Perera",
+          "Dorsey Kaufmann",
+          "Ayca Atabey",
+          "Uta Hinrichs",
+          "Andrew Manches",
+          "Stephen Brewster"
+        ],
+        "takeaway": "Children explored deformable objects to help designers understand which bodily experiences might convey data.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3772318.3791846"
+      }
+    ]
+  },
+  {
+    "id": "time",
+    "title": "Designing with Time",
+    "type": "paper",
+    "timeSlot": "11:30–12:10",
+    "room": "Room 02",
+    "loadWeight": 24,
+    "abstract15s": "Compare schedules that batch requests, leave gaps, or invite immediate replies. Explore whose time each design protects and who has to do the coordinating.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers’ Unstructured Time and Attention Negotiation",
+        "authors": [
+          "Sharon Ferguson",
+          "Michael Massimi"
+        ],
+        "takeaway": "Workers used meeting-free weeks differently. Keeping time free still required negotiating when colleagues could ask for attention.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642175"
+      }
+    ]
+  },
+  {
+    "id": "listening",
+    "title": "Listening Across Differences",
+    "type": "workshop",
+    "timeSlot": "13:05–13:35",
+    "room": "Room 06",
+    "loadWeight": 18,
+    "abstract15s": "Redesign a fast-moving Q&A so people can follow the speaker, read captions, and contribute at their own pace. Try the result in a small group.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2025,
+        "title": "SpeechCompass: Enhancing Mobile Captioning with Diarization and Directional Guidance via Multi-Microphone Localization",
+        "authors": [
+          "Artem Dementyev",
+          "Dimitri Kanevsky",
+          "Samuel J. Yang",
+          "Mathieu Parvaix",
+          "Chiong Lai",
+          "Alex Olwal"
+        ],
+        "takeaway": "Directional cues and speaker separation help a reader follow who is speaking in a group conversation.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3706598.3713631"
+      }
+    ]
+  },
+  {
+    "id": "quiet",
+    "title": "Designing for Quiet",
+    "type": "poster",
+    "timeSlot": "14:00–14:20",
+    "room": "Poster hall",
+    "loadWeight": 12,
+    "abstract15s": "Try an opt-in sketch of a quiet-route finder. Explore how to describe the sensory qualities of a space without making promises about the next visitor’s experience.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers’ Unstructured Time and Attention Negotiation",
+        "authors": [
+          "Sharon Ferguson",
+          "Michael Massimi"
+        ],
+        "takeaway": "Workers used meeting-free weeks differently. Keeping time free still required negotiating when colleagues could ask for attention.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642175"
+      }
+    ]
+  },
+  {
+    "id": "slow",
+    "title": "The Slow Archive",
+    "type": "poster",
+    "timeSlot": "14:20–14:40",
+    "room": "Demo hall",
+    "loadWeight": 10,
+    "abstract15s": "Save a fragment of a conversation and return to it through a place or a date. Try reading an archive in small visits, with control over what persists.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2023,
+        "title": "Designing Anekdota: Investigating Personal Metadata for Legacy",
+        "authors": [
+          "Michael Nørgaard Jørgensen",
+          "Tom Jenkins"
+        ],
+        "takeaway": "A handheld prototype let people encounter inherited location traces while walking, linking a place to someone’s everyday routines.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3544548.3581495"
+      },
+      {
+        "year": 2024,
+        "title": "Politics of the Past: Understanding the Role of Memory, Postmemory, and Remembrance in Navigating the History of Migrant Families",
+        "authors": [
+          "Nabila Chowdhury",
+          "Natasha Shokri",
+          "Cibeles Herrera Valera",
+          "Azhagu Meena Sp",
+          "Carolina Reyes Marquez",
+          "Mohammad Rashidujjaman Rifat",
+          "Cosmin Munteanu",
+          "Negin Dahya",
+          "Marisol Wong-Villacres",
+          "Syed Ishtiaque Ahmed"
+        ],
+        "takeaway": "Interviews with migrant families show how relatives negotiate which stories travel across generations.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642496"
+      }
+    ]
+  },
+  {
+    "id": "attention",
+    "title": "Making Room for Attention",
+    "type": "workshop",
+    "timeSlot": "15:00–16:00",
+    "room": "Room 07",
+    "loadWeight": 20,
+    "abstract15s": "Sketch an afternoon with protected intervals for focused work. Trade plans with another participant to see how shared expectations change what counts as a break.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers’ Unstructured Time and Attention Negotiation",
+        "authors": [
+          "Sharon Ferguson",
+          "Michael Massimi"
+        ],
+        "takeaway": "Workers used meeting-free weeks differently. Keeping time free still required negotiating when colleagues could ask for attention.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642175"
+      }
+    ]
+  },
+  {
+    "id": "field",
+    "title": "Field Notes in Motion",
+    "type": "poster",
+    "timeSlot": "16:10–16:30",
+    "room": "Demo hall",
+    "loadWeight": 14,
+    "abstract15s": "Walk a short loop with a handheld field notebook. Record a moment by touch, then inspect how the location changes what you remember about it.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2023,
+        "title": "Designing Anekdota: Investigating Personal Metadata for Legacy",
+        "authors": [
+          "Michael Nørgaard Jørgensen",
+          "Tom Jenkins"
+        ],
+        "takeaway": "A handheld prototype let people encounter inherited location traces while walking, linking a place to someone’s everyday routines.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3544548.3581495"
+      },
+      {
+        "year": 2024,
+        "title": "Data Physicalization with Haptic Variables: Exploring Resistance and Friction",
+        "authors": [
+          "Sander Dullaert",
+          "Champika Ranasinghe",
+          "Auriol Degbelo",
+          "Nacir Bouali"
+        ],
+        "takeaway": "Participants read physical patterns through friction and resistance. Many preferred resistance, even when task performance was similar.",
+        "venue": "CHI Extended Abstracts",
+        "url": "https://doi.org/10.1145/3613905.3651011"
+      }
+    ]
+  },
+  {
+    "id": "shared",
+    "title": "Shared Places, Shared Stories",
+    "type": "paper",
+    "timeSlot": "16:30–17:15",
+    "room": "Room 03",
+    "loadWeight": 26,
+    "abstract15s": "Compare different accounts of the same place. Explore how a shared map can preserve disagreements, silences, and permission to withdraw a story.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2023,
+        "title": "Designing Anekdota: Investigating Personal Metadata for Legacy",
+        "authors": [
+          "Michael Nørgaard Jørgensen",
+          "Tom Jenkins"
+        ],
+        "takeaway": "A handheld prototype let people encounter inherited location traces while walking, linking a place to someone’s everyday routines.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3544548.3581495"
+      },
+      {
+        "year": 2024,
+        "title": "Politics of the Past: Understanding the Role of Memory, Postmemory, and Remembrance in Navigating the History of Migrant Families",
+        "authors": [
+          "Nabila Chowdhury",
+          "Natasha Shokri",
+          "Cibeles Herrera Valera",
+          "Azhagu Meena Sp",
+          "Carolina Reyes Marquez",
+          "Mohammad Rashidujjaman Rifat",
+          "Cosmin Munteanu",
+          "Negin Dahya",
+          "Marisol Wong-Villacres",
+          "Syed Ishtiaque Ahmed"
+        ],
+        "takeaway": "Interviews with migrant families show how relatives negotiate which stories travel across generations.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642496"
+      }
+    ]
+  },
+  {
+    "id": "caption",
+    "title": "Captions Around the Table",
+    "type": "paper",
+    "timeSlot": "09:00–09:45",
+    "room": "Room 05",
+    "loadWeight": 22,
+    "abstract15s": "Read competing layouts for a four-person discussion. Consider how speaker direction and turn changes help readers catch up after looking away.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2025,
+        "title": "SpeechCompass: Enhancing Mobile Captioning with Diarization and Directional Guidance via Multi-Microphone Localization",
+        "authors": [
+          "Artem Dementyev",
+          "Dimitri Kanevsky",
+          "Samuel J. Yang",
+          "Mathieu Parvaix",
+          "Chiong Lai",
+          "Alex Olwal"
+        ],
+        "takeaway": "Directional cues and speaker separation help a reader follow who is speaking in a group conversation.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3706598.3713631"
+      }
+    ]
+  },
+  {
+    "id": "makers",
+    "title": "Material Stories for Small Hands",
+    "type": "workshop",
+    "timeSlot": "11:30–12:20",
+    "room": "Studio B",
+    "loadWeight": 16,
+    "abstract15s": "Shape a week of weather readings in three different materials. Compare the physical metaphors participants invent for change, uncertainty, and surprise.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Data Physicalization with Haptic Variables: Exploring Resistance and Friction",
+        "authors": [
+          "Sander Dullaert",
+          "Champika Ranasinghe",
+          "Auriol Degbelo",
+          "Nacir Bouali"
+        ],
+        "takeaway": "Participants read physical patterns through friction and resistance. Many preferred resistance, even when task performance was similar.",
+        "venue": "CHI Extended Abstracts",
+        "url": "https://doi.org/10.1145/3613905.3651011"
+      },
+      {
+        "year": 2026,
+        "title": "From Squishing to Meaning: Exploring Data Physicalization Through Children's Embodied Experiences",
+        "authors": [
+          "Andres A. Ramirez-Duque",
+          "Dushani Perera",
+          "Dorsey Kaufmann",
+          "Ayca Atabey",
+          "Uta Hinrichs",
+          "Andrew Manches",
+          "Stephen Brewster"
+        ],
+        "takeaway": "Children explored deformable objects to help designers understand which bodily experiences might convey data.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3772318.3791846"
+      }
+    ]
+  },
+  {
+    "id": "legacy",
+    "title": "Keeping Only What Matters",
+    "type": "workshop",
+    "timeSlot": "14:00–14:50",
+    "room": "Studio A",
+    "loadWeight": 18,
+    "abstract15s": "Build a handover ritual for a small digital collection. Decide together which notes need context, which can be shared, and which should fade.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2023,
+        "title": "Designing Anekdota: Investigating Personal Metadata for Legacy",
+        "authors": [
+          "Michael Nørgaard Jørgensen",
+          "Tom Jenkins"
+        ],
+        "takeaway": "A handheld prototype let people encounter inherited location traces while walking, linking a place to someone’s everyday routines.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3544548.3581495"
+      },
+      {
+        "year": 2024,
+        "title": "Politics of the Past: Understanding the Role of Memory, Postmemory, and Remembrance in Navigating the History of Migrant Families",
+        "authors": [
+          "Nabila Chowdhury",
+          "Natasha Shokri",
+          "Cibeles Herrera Valera",
+          "Azhagu Meena Sp",
+          "Carolina Reyes Marquez",
+          "Mohammad Rashidujjaman Rifat",
+          "Cosmin Munteanu",
+          "Negin Dahya",
+          "Marisol Wong-Villacres",
+          "Syed Ishtiaque Ahmed"
+        ],
+        "takeaway": "Interviews with migrant families show how relatives negotiate which stories travel across generations.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3613904.3642496"
+      }
+    ]
+  },
+  {
+    "id": "haptic",
+    "title": "A Palette You Can Feel",
+    "type": "poster",
+    "timeSlot": "15:30–15:50",
+    "room": "Demo hall",
+    "loadWeight": 12,
+    "abstract15s": "Explore a tactile legend that changes under your fingers. Find a peak and compare two values using surface friction or resistance alone.",
+    "roomCapacity": null,
+    "priorWorks": [
+      {
+        "year": 2024,
+        "title": "Data Physicalization with Haptic Variables: Exploring Resistance and Friction",
+        "authors": [
+          "Sander Dullaert",
+          "Champika Ranasinghe",
+          "Auriol Degbelo",
+          "Nacir Bouali"
+        ],
+        "takeaway": "Participants read physical patterns through friction and resistance. Many preferred resistance, even when task performance was similar.",
+        "venue": "CHI Extended Abstracts",
+        "url": "https://doi.org/10.1145/3613905.3651011"
+      },
+      {
+        "year": 2026,
+        "title": "From Squishing to Meaning: Exploring Data Physicalization Through Children's Embodied Experiences",
+        "authors": [
+          "Andres A. Ramirez-Duque",
+          "Dushani Perera",
+          "Dorsey Kaufmann",
+          "Ayca Atabey",
+          "Uta Hinrichs",
+          "Andrew Manches",
+          "Stephen Brewster"
+        ],
+        "takeaway": "Children explored deformable objects to help designers understand which bodily experiences might convey data.",
+        "venue": "CHI",
+        "url": "https://doi.org/10.1145/3772318.3791846"
+      }
+    ]
+  }
+]
